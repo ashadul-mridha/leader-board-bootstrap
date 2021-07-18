@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leader Board using Bootstrap</title>
+    <!-- Bootstrap css link  -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/b98d090fd4.js" crossorigin="anonymous"></script>
+</head>
+<body style=" color: #F3F1FF;">
+    <header class="bg-primary p-3 d-flex justify-content-between align-items-center">
+        <div class="logo d-flex align-items-center">
+            <img src="assets/images/icons/logo.png" alt="" height="50px" width="40px">
+            <p class="fs-2 ms-2">Idea</p>
+        </div>
+        <nav class="d-flex align-items-center">
+            <a class="text-decoration-none text-white me-3" href="#">Home</a>
+            <a class="text-decoration-none text-white me-3" href="#">About</a>
+            <a class="text-decoration-none text-white me-3" href="#">Works</a>
+            <a class="text-decoration-none text-white me-3" href="#"><img src="assets/images/icons/profile.png" alt=""></a>
+        </nav>
+    </header>
+    <main>
+        <section class="container-lg mt-2 py-3 bg-white shadow-lg playersandblog">
+            <div class="top-player">
+                <h3 class="text-primary py-3">Top Player</h3>
+                <div class="players row row-cols-md-2 row-cols-sm-1 row-cols-lg-3 gy-3 d-flex justify-content-center">
+                    <div class="player d-flex align-items-center">
+                        <img src="assets/images/players/player-1.png" alt="" height="56px" width="56px" class="img-fluid">
+                        <h4 class="h6 text-dark ms-2">Player Name - 1</h4>
+                    </div>
+                    <div class="player d-flex align-items-center">
+                        <img src="assets/images/players/player-2.png" alt="" height="56px" width="56px" class="img-fluid">
+                        <h4 class="h6 text-dark ms-2">Player Name - 2</h4>
+                    </div>
+                    <div class="player d-flex align-items-center">
+                        <img src="assets/images/players/player-3.png" alt="" height="56px" width="56px" class="img-fluid">
+                        <h4 class="h6 text-dark ms-2">Player Name - 3</h4>
+                    </div>
+                    <div class="player d-flex align-items-center">
+                        <img src="assets/images/players/player-4.png" alt="" height="56px" width="56px" class="img-fluid">
+                        <h4 class="h6 text-dark ms-2">Player Name - 4</h4>
+                    </div>
+                    <div class="player d-flex align-items-center">
+                        <img src="assets/images/players/player-5.png" alt="" height="56px" width="56px" class="img-fluid">
+                        <h4 class="h6 text-dark ms-2">Player Name - 5</h4>
+                    </div>
+                    <div class="player d-flex align-items-center">
+                        <img src="assets/images/players/player-6.png" alt="" height="56px" width="56px" class="img-fluid">
+                        <h4 class="h6 text-dark ms-2">Player Name - 6</h4>
+                    </div>
+                </div>
+            </div>
+            <hr class="bg-secondary">
+            <div class="top-blogs">
+                <h3 class="text-primary py-3">Top Blogs</h3>
+                <div class="blogs row ">
+                    <div class="blog row   col-sm-12 col-md-12 col-lg-6">
+                        <div class="blog-img col-lg-6 col-md-6 col-sm-12">
+                            <img class="img-fluid" src="assets/images/blogs/blog-1.png" alt="">
+                        </div>
+                        <div class="blog-info col-lg-6 col-md-6 col-sm-12">
+                            <h4 class="text-dark mb-2 fs-3 lh-1.5">13 of My Favorite UI/UX Goodies</h4>
+                            <p class="text-secondary">By <a href="#" class="text-primary">Ashadul Mridha</a></p>
+                        </div>
+                    </div>
+                    <div class="blog row  col-sm-12 col-md-12 col-lg-6">
+                        <div class="blog-img col-lg-6 col-md-6 col-sm-12">
+                            <img class="img-fluid" src="assets/images/blogs/blog-2.png" alt="">
+                        </div>
+                        <div class="blog-info col-lg-6 col-md-6 col-sm-12">
+                            <h4 class="text-dark mb-2 fs-3 lh-1.5">UI cheat sheet: list vs grids</h4>
+                            <p class="text-secondary">By <a href="#" class="text-primary">Ashadul Mridha</a></p>
+                        </div>
+                    </div>
+                    <div class="blog row  col-sm-12 col-md-12 col-lg-6">
+                        <div class="blog-img col-lg-6 col-md-6 col-sm-12">
+                            <img class="img-fluid" src="assets/images/blogs/blog-3.png" alt="">
+                        </div>
+                        <div class="blog-info col-lg-6 col-md-6 col-sm-12">
+                            <h4 class="text-dark mb-2 fs-3 lh-1.5">7 typography tips for interface design</h4>
+                            <p class="text-secondary">By <a href="#" class="text-primary">Ashadul Mridha</a></p>
+                        </div>
+                    </div>
+                    <div class="blog row  col-sm-12 col-md-12 col-lg-6">
+                        <div class="blog-img col-lg-6 col-md-6 col-sm-12">
+                            <img class="img-fluid" src="assets/images/blogs/blog-4.png" alt="">
+                        </div>
+                        <div class="blog-info col-lg-6 col-md-6 col-sm-12">
+                            <h4 class="text-dark mb-2 fs-3 lh-1">Your logo is copied</h4>
+                            <p class="text-secondary">By <a href="#" class="text-primary">Ashadul Mridha</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container-lg bg-white mt-3 shadow-lg p-3">
+            <h3 class="text-primary py-3">Latest Course</h3>
+            <div class="row g-5 courses">
+                <div class="course col-sm-12 col-md-6 col-lg-4">
+                    <img src="assets/images/courses/course-1.png" alt="" class="img-fluid">
+                    <h4 class="text-dark">React - The Complete Guide 2022</h4>
+                    <p class="text-danger">Reed Krakoff.</p>
+                    <div class="course-info d-flex justify-content-between align-items-center">
+                        <div class="feedback">
+                            <span class="text-warning"><i class="fas fa-star"></i></span>
+                            <span class="text-warning"><i class="fas fa-star"></i></span>
+                            <span class="text-warning"><i class="fas fa-star"></i></span>
+                            <span class="text-warning"><i class="fas fa-star"></i></span>
+                            <span class="text-secondary"><i class="fas fa-star"></i></span>
+                            <span>4.5</span>
+                        </div>
+                        <div class="btn btn-outline-danger rounded-pill">
+                            <span><i class="fas fa-clock"></i>1.5hour</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="course col-sm-12 col-md-6 col-lg-4">
+                    <img src="assets/images/courses/course-2.png" alt="" class="img-fluid">
+                    <h4 class="text-dark">Powerpoint 2020 Master course</h4>
+                    <p class="text-danger">Ashadul Mridha.</p>
+                    <div class="course-info d-flex justify-content-between align-items-center">
+                        <div class="feedback">
+                            <span class="text-warning"><i class="fas fa-star"></i></span>
+                            <span class="text-warning"><i class="fas fa-star"></i></span>
+                            <span class="text-warning"><i class="fas fa-star"></i></span>
+                            <span class="text-warning"><i class="fas fa-star"></i></span>
+                            <span class="text-secondary"><i class="fas fa-star"></i></span>
+                            <span>4.5</span>
+                        </div>
+                        <div class="btn btn-outline-danger rounded-pill">
+                            <span><i class="fas fa-clock"></i>3.5hour</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="course col-sm-12 col-md-6 col-lg-4">
+                    <img src="assets/images/courses/course-3.png" alt="" class="img-fluid">
+                    <h4 class="text-dark">The Complete Javascript Course</h4>
+                    <p class="text-danger">Zareen Adrita.</p>
+                    <div class="course-info d-flex justify-content-between align-items-center">
+                        <div class="feedback">
+                            <span class="text-warning"><i class="fas fa-star"></i></span>
+                            <span class="text-warning"><i class="fas fa-star"></i></span>
+                            <span class="text-warning"><i class="fas fa-star"></i></span>
+                            <span class="text-warning"><i class="fas fa-star"></i></span>
+                            <span class="text-secondary"><i class="fas fa-star"></i></span>
+                            <span>4</span>
+                        </div>
+                        <div class="btn btn-outline-danger rounded-pill">
+                            <span><i class="fas fa-clock"></i>2.5hour</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-primary py-3">
+        <p class="text-center">copywright &copy; Ashadul <span class="text-danger">Mridha</span></p>
+    </footer>
+</body>
+</html>
